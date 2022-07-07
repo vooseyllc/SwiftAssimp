@@ -79,6 +79,7 @@ Depending on your assimp version run the following command in your Terminal:
 - print the currently installed assimp version: `printBrewAssimpVersion`
     - for version 5.0.0:  `make copyMacPkgConfig500`
     - for version 5.0.1:  `make copyMacPkgConfig501`
+    - for version 5.2.4:  `make copyMacPkgConfig524`
 
 This will copy a corrected pkg-config file to the appropriate library location. You will need to repeat this step when updating assimp via homebrew until a fix is provided by the assimp developers.
 Be sure to close Xcode before retrying to build.

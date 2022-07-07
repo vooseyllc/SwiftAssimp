@@ -77,3 +77,7 @@ copyMacPkgConfig500:
 .PHONY: copyMacPkgConfig501
 copyMacPkgConfig501:
 	sudo cp ${PWD}/assimp5.0.1.mac.pc /usr/local/lib/pkgconfig/assimp.pc
+
+.PHONY: copyMacPkgConfig524
+copyMacPkgConfig524:
+	sudo cp ${PWD}/assimp5.2.4.mac.pc /usr/local/lib/pkgconfig/assimp.pc
